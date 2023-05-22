@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ------------Hero-------------- */
+.hero{
+    background-image:linear-gradient(to right,rgba(0,0,0,.6),rgba(0,0,0,.6)), url("../assets/heroimage.jpg");
+    background-size: cover;
+    background-position: center ;
+    width: 100vw;
+    height: 120vh;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+}
+
+.txt {
+    padding-top: 20%;
+    font-size: 84px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.txt1{
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+
+}
+@media screen and (max-width:1024px) {
+    .txt{
+        padding-top: 20%; 
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .hero{
+        width: 100vw;
+        height: 70vh; 
+    }
+    .txt{
+        padding-top: 50%; 
+        font-size: 44px;
+    }
+    .txt1{
+        font-size: 18px;
+    }
+}
+@media screen and(max-width:820px) {
+    .hero{
+        width: 100vw;
+        height: 70vh; 
+    }
+    .txt{
+        padding-top: 35%; 
+        font-size: 68px;
+    }
+    .txt1{
+        font-size: 28px;
+    }
+}
+/*----------------------------------------------------*/
+.mycontainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mycontainer h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 50px;
+ 
+}
+.spec{
+    padding-bottom: 30px;
+}
+.mycontainer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    max-width: 304px;
+    text-align: center;
+    padding-top: 30px;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url('../assets/udara.jpg');
+    background-size: cover;
+    background-position: center top;
+}
+.progressbar{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows:repeat(4 ,1fr);
+    gap: 40px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.bar{
+    width: 320px;
+    height: 2px;
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.word{
+    text-align: right;
+}
+.com{
+    position: relative;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #323232;
+}
+.indicator1{
+    width: 280px;
+}
+.indicator2{
+    width: 300px;
+}
+.indicator3{
+    width: 260px;
+}
+.indicator4{
+    width:240px;
+}
+@media (max-width:420px){
+    .progressbar{
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 20px;
+    }
+    .bar{
+        width: 240px;
+        
+    }
+    .indicator1{
+        width: 210px;
+    }
+    .indicator2{
+        width: 225px;
+    }
+    .indicator3{
+        width: 190px;
+    }
+    .indicator4{
+        width:180px;
+    }
+    .mycontainer{
+        margin-top: 20px;
+        
+    }
+}
+.git{
+    max-width:400px;
+}
+.git a{
+    text-decoration: none;
+}
+.btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #989898;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #646464; 
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    align-items: center;
+    margin-top: 60px;
+    background-color: #989898;
+    color: white;
+    height: 100px;
+}
+.top{
+    margin-bottom: 10px;
+}
+.top div{
+    display: inline;
+    margin-top: 25px;
+}
+.top a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #646464;
+}
+.extra{
+    margin-right: 15px;
+}
